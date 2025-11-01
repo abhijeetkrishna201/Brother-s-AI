@@ -222,4 +222,3 @@ This project was created as a personal portfolio piece and learning exercise.
 This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
 =======
 This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
->>>>>>> c32c6ce3079772405ed733ab2780fd44ae278c44
