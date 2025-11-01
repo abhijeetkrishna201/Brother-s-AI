@@ -2,8 +2,8 @@ import { createClient } from '@supabase/supabase-js';
 
 // Supabase configuration - loaded from database via admin settings
 // Default values (fallback if not configured)
-let SUPABASE_URL = 'https://lfgffpfenynxhvxicdue.supabase.co';
-let SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxmZ2ZmcGZlbnlueGh2eGljZHVlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk2NzQxNDAsImV4cCI6MjA3NTI1MDE0MH0.Er8efWbWXw8-Wi6T1uGNBl0M89RKIGtwfmrEsQUvvKg';
+let SUPABASE_URL = 'Put your supabase project url here ';
+let SUPABASE_ANON_KEY = 'put your supabase project api key here';
 
 // Create Supabase client
 export let supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
