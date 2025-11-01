@@ -1,0 +1,17 @@
+# Robots.txt for Brother's AI Chatbot
+# Created by Abhijeet Krishna Budhak
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://brothers-ai.com/sitemap.xml
+
+# Crawl-delay for polite crawlers
+Crawl-delay: 1
+
+# Block specific bots if needed
+# User-agent: BadBot
+# Disallow: /
