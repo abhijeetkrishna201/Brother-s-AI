@@ -65,7 +65,7 @@ You will need accounts for the following services:
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/brothers-ai.git
+    git clone https://github.com/abhijeetkrishna201/brothers-ai.git
     cd brothers-ai
     ```
 
@@ -198,7 +198,7 @@ This project was created as a personal portfolio piece and learning exercise.
   * **EmailJS** - For a simple and effective email-sending service
   * **Shadcn/ui** - For the fantastic component library
 
-## 📄 License
+📄 License
 
 
 This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
