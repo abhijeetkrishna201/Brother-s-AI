@@ -159,25 +159,7 @@ You will need accounts for the following services:
 │   ├── SQL/               # SQL scripts
 │   └── ...
 └── .env.example           # Environment variable template
-```
 
------
-
-## 🔍 Troubleshooting
-
-A summary of common issues and their solutions.
-
-| Issue | Solution |
-| :--- | :--- |
-| **"RLS Policy Error (42501)"** | Run the `/docs/SQL/FIX_RLS_POLICY.sql` script in your Supabase SQL Editor. |
-| **"EmailJS 422 - Recipients address empty"** | Ensure your EmailJS template's "To email" field is set to `{{to_email}}`. |
-| **"Gemini 503 - Model overloaded"** | This is a temporary error from the API. The app has auto-retry, but waiting a minute usually helps. |
-| **"Messages not saving"** | Double-check your `REACT_APP_SUPABASE_URL` and `REACT_APP_SUPABASE_ANON_KEY` in your `.env` file. |
-| **"OTP not received"** | Check your spam folder. Verify all your EmailJS IDs and keys in the `.env` file are correct. |
-
-> For more detailed guides, please see the files in the `/docs` directory.
-
------
 
 ## 🚀 Future Roadmap
 
@@ -218,7 +200,6 @@ This project was created as a personal portfolio piece and learning exercise.
 
 ## 📄 License
 
-<<<<<<< HEAD
+
 This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
-=======
 This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
